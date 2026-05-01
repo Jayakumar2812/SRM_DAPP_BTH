@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  background: #07111f;
+  color: #e5f0ff;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+.card {
+  border: 1px solid rgb(255 255 255 / 0.1);
+  border-radius: 1.5rem;
+  background: rgb(15 23 42 / 0.92);
+  padding: 1.5rem;
+}
+
+.card-title {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: white;
+}
+
+.label {
+  margin-top: 0.75rem;
+  margin-bottom: 0.35rem;
+  display: block;
+  font-size: 0.875rem;
+  color: rgb(203 213 225);
+}
+
+.input {
+  width: 100%;
+  border-radius: 0.9rem;
+  border: 1px solid rgb(255 255 255 / 0.1);
+  background: rgb(2 6 23 / 0.85);
+  padding: 0.75rem 0.9rem;
+  color: white;
+  outline: none;
+}
+
+.input:focus {
+  border-color: rgb(103 232 249 / 0.75);
+  box-shadow: 0 0 0 3px rgb(34 211 238 / 0.1);
+}
+
+.btn-primary,
+.btn-secondary {
+  border-radius: 999px;
+  padding: 0.75rem 1rem;
+  font-weight: 700;
+  transition: opacity 150ms ease, transform 150ms ease;
+}
+
+.btn-primary {
+  background: rgb(34 211 238);
+  color: rgb(8 47 73);
+}
+
+.btn-secondary {
+  border: 1px solid rgb(255 255 255 / 0.15);
+  background: rgb(255 255 255 / 0.06);
+  color: white;
+}
+
+.btn-primary:disabled,
+.btn-secondary:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.badge-safe,
+.badge-risk {
+  border-radius: 999px;
+  padding: 0.35rem 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.badge-safe {
+  background: rgb(16 185 129 / 0.14);
+  color: rgb(110 231 183);
+}
+
+.badge-risk {
+  background: rgb(239 68 68 / 0.14);
+  color: rgb(252 165 165);
+}

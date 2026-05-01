@@ -1,0 +1,11 @@
+{
+  "name": "vaccine-cold-chain-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "lint": "eslint -c eslint.config.mjs ."
+  }
+}
