@@ -9,7 +9,8 @@
     "deploy:monad": "hardhat run scripts/deploy.ts --network monad",
     "frontend:dev": "npm --prefix frontend run dev",
     "frontend:build": "npm --prefix frontend run build",
-    "frontend:lint": "npm --prefix frontend run lint"
+    "frontend:lint": "npm --prefix frontend run lint",
+    "vercel-build": "npm run frontend:build"
   },
   "keywords": [
     "vaccine",
